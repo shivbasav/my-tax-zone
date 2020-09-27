@@ -1,51 +1,80 @@
-$font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+@charset "utf-8";
 
-//colors
-$white: #fff;
-$black: #000;
-$maroon: #83333e;
-$off-white: #f2f4f5;
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
 
-html,
-body {
-  font-family: $font;
-  font-size: 16px;
-}
+$primaryColor: #00aeef; // blueish
+$secondaryColor: #ee2a7b; // like pink
+$tertiaryColor: #ffc841; // like yellow
+$primaryColorShade: #2c5697; // blue shades
+$supportingColor: #a2c617; // green shades
+$danger: red;
+$white: #ffffff;
+$dark: #0d0d0d;
+$darkGrey: #505050;
+$coolGrey: #737373;
+$waterMarkGrey: #b0b0b0;
+$specialGrey: #a8a8a8;
+// for header bars
+$lightGreyAlpha: #f6f6f6;
+$lightGreyBeta: #e2e2e2;
+$lightGreyTheta: #eeeeee;
 
-.container {
-  widows: 1640px;
-  min-width: 1630px;
-  margin: 0 auto;
-  @media (max-width: 1440px) {
-    widows: 1280px;
-    min-width: 1280px;
-  }
-  @media (max-width: 1440px) {
-    widows: 976px;
-    min-width: 976px;
-  }
-  @media (max-width: 976px) {
-    widows: 768px;
-    min-width: 768px;
-  }
-}
+//  font sizes
+$size7: 0.5rem;
+$size6: 0.6rem;
+$size5: 0.7rem;
+$size4: 0.8rem;
+$size3: 0.9rem;
+$size2: 1rem;
+$size1: 1.1rem;
 
+$font-family: "Open Sans", sans-serif;
+$body-family: $font-family;
+$family-primary: $font-family;
+$body-font-size: 0.9em;
+$primary: $primaryColor;
+$dark: $dark;
+$yellow: $tertiaryColor;
+$black: $dark;
+$size-1: $size1;
+$size-2: $size2;
+$size-3: $size3;
+$size-4: $size4;
+$size-5: $size5;
+$size-6: $size6;
+$size-7: $size7;
+$size-small: 0.6rem;
+$size-normal: 0.8rem;
+$size-medium: 1rem;
+$size-large: 1.2rem;
+$pagination-current-background-color: $primaryColor;
+$pagination-current-border-color: $primaryColor;
+$label-color: $darkGrey;
+$label-weight: 600;
+$input-shadow: 0;
+$input-focus-box-shadow-color: rgba($primaryColorShade, 0.25);
+$input-focus-box-shadow-size: 0 0 0 0.08em;
+$input-disabled-background-color: $lightGreyAlpha;
+$input-disabled-border-color: $lightGreyBeta;
+$table-color: $dark;
+$table-cell-padding: 1em;
+$table-head-cell-border-width: 0 0 1px;
+$table-head-cell-color: $darkGrey;
+$table-head-background-color: $lightGreyAlpha;
+$tabs-border-bottom-width: 3px;
+$tabs-border-bottom-color: $lightGreyAlpha;
+$tabs-link-hover-border-bottom-color: $primaryColor;
+$tabs-link-color: $darkGrey;
+$tabs-link-hover-color: $darkGrey;
+$tabs-link-active-border-bottom-color: $primaryColor;
+$tabs-link-active-color: $darkGrey;
+$tabs-boxed-link-active-background-color: $lightGreyAlpha;
+$tabs-toggle-link-active-background-color: $lightGreyAlpha;
 
-// Header 
-header{
-    .inner-header{
-        .logo{
-            a{
+$modal-content-width: 1024px;
+$modal-card-head-padding: 0.5rem;
+$modal-card-title-color: $darkGrey;
+$dropdown-content-z: 2000;
 
-            }
-        }
-        .navigation{
-            nav{
-                a{
-
-                }
-            }
-        }
-    }
-}
+@import "../../node_modules/bulma/bulma.sass";
