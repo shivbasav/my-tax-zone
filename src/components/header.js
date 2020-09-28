@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
+import { Text } from "./elements/Text"
 
 const NavBar = styled.nav`
   &&& {
@@ -52,22 +53,12 @@ const NavBar = styled.nav`
 `
 
 const Header = () => (
-  <header>
-    <div className="container">
-      <div className="inner-header">
-        <div className="logo">
-          <Link to="/">Home</Link>
-        </div>
-      </div>
-      <div className="navigation">
-        <nav>
-          <Link to="/about">About</Link>
-          <Link to="/work">Work</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-      </div>
+  <nav className="navbar" rol="navigation" aria-label="main navigation">
+    <div className="navbar-brand">
+      
+
     </div>
-  </header>
+  </nav>
 )
 
 export default Header
