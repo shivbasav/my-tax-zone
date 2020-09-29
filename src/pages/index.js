@@ -1,11 +1,13 @@
 import React from "react"
-import "../styles/styles.scss"
+import "../theme/styles/styles.scss"
+import SubHeader from "../components/SubHeader"
 
 import Header from "../components/header"
 
 const IndexPage = () => (
   <div>
     <Header />
+    <SubHeader />
   </div>
 )
 
