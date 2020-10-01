@@ -1,24 +1,3 @@
-// // import { Link } from "gatsby"
-// // import React from "react"
-// // import styled from "styled-components"
-// // import { Text } from "./elements/Text"
-
-// // const SubHeader = () => (
-// //   <nav className="navbar is-white">
-// //     <div className="navbar-item has-dropdown is-hoverable">
-// //       <a className="navbar-link" to="/">
-// //         Docs
-// //       </a>
-// //       <div className="navbar-dropdown is-boxed">
-// //         <Link to="page-2/" className="navbar-item">
-// //           sdfsfds
-// //         </Link>
-// //       </div>
-// //     </div>
-// //   </nav>
-// // )
-
-// // export default SubHeader
 // import React from "react"
 
 // import styled from "styled-components"
@@ -254,13 +233,11 @@ const Item = styled.div`
 const SubHeader = () => {
   return (
     <Container>
-      <Wrapper>
+      <nav className="navbar is-white" rol="navigation">
         <div className="navbar-end">
           <div className="navbar-item has-dropdown is-hoverable">
             <NavbarLink className="navbar-link">
-              <p color="white" size="14px">
-                Add a Place
-              </p>
+              <p style={{ fontSize: "12px" }}>Add a Place</p>
             </NavbarLink>
 
             <div className="navbar-dropdown">
@@ -301,7 +278,7 @@ const SubHeader = () => {
         <Item>
           <p>Write a Review</p>
         </Item>
-      </Wrapper>
+      </nav>
       {/* <Breadcrumbs /> */}
     </Container>
   )
