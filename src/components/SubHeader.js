@@ -234,52 +234,81 @@ const SubHeader = () => {
   return (
     <Container>
       <nav className="navbar is-white" rol="navigation">
-        <div className="navbar-end">
-          <div className="navbar-item has-dropdown is-hoverable">
-            <NavbarLink className="navbar-link">
-              <p style={{ fontSize: "12px" }}>Add a Place</p>
-            </NavbarLink>
+        <div className="navbar-item has-dropdown is-hoverable navbar-end">
+          <div className="navbar-link">
+            <p style={{ fontSize: "11px" }}>START BUSINESS</p>
+          </div>
 
-            <div className="navbar-dropdown">
-              <div className="navbar-item navbar-brand">
-                <Link to="/add-place">
-                  <p size="smaller" color="darkGrey" weight="semibold">
-                    Add a Place
-                  </p>
-                </Link>
-              </div>
-              <div className="navbar-item">
-                <Link to="/search-place-for-claim">
-                  <p size="smaller" color="darkGrey" weight="semibold">
-                    Claim a Place
-                  </p>
-                </Link>
-              </div>
+          <div className="navbar-dropdown">
+            <div className="navbar-item navbar-brand">
+              <Link to="/add-place">
+                <p style={{ color: "#505050", fontSize: "11px" }}>
+                  Add a Place
+                </p>
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/search-place-for-claim">
+                <p style={{ color: "#505050", fontSize: "11px" }}>
+                  Claim a Place
+                </p>
+              </Link>
             </div>
           </div>
         </div>
 
-        <Item>
-          <p>Find An Item</p>
-        </Item>
+        <div className="navbar-item has-dropdown is-hoverable">
+          <div className="navbar-link">
+            <p style={{ fontSize: "11px" }}>MANAGE BUSINESS</p>
+          </div>
 
-        <Item>
-          <p>Order Food</p>
-        </Item>
+          <div className="navbar-dropdown navbar-dropdown-background-color">
+            <div className="navbar-item navbar-brand">
+              <Link to="/add-place">
+                <p style={{ color: "#505050", fontSize: "11px" }}>
+                  Add a Place
+                </p>
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/search-place-for-claim">
+                <p style={{ color: "#505050", fontSize: "11px" }}>
+                  Claim a Place
+                </p>
+              </Link>
+            </div>
+          </div>
+        </div>
 
-        <Item>
-          <p>Discover Events</p>
-        </Item>
+        <div className="navbar-item has-dropdown is-hoverable">
+          <div className="navbar-link">
+            <p style={{ fontSize: "11px" }}>AGREEMENTS & DOCUMENTS </p>
+          </div>
 
-        <Item>
-          <p>Spot and Share An Item</p>
-        </Item>
+          <div className="navbar-dropdown navbar-dropdown-background-color">
+            <div className="navbar-item navbar-brand">
+              <Link to="/add-place">
+                <p style={{ color: "#505050", fontSize: "11px" }}>
+                  Add a Place
+                </p>
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/search-place-for-claim">
+                <p style={{ color: "#505050", fontSize: "11px" }}>
+                  Claim a Place
+                </p>
+              </Link>
+            </div>
+          </div>
+        </div>
 
-        <Item>
-          <p>Write a Review</p>
-        </Item>
+        <div style={{ paddingTop: "1.1rem" }}>
+          <Link to="/add-place">
+            <p style={{ color: "#505050", fontSize: "11px" }}>ARTICLES</p>
+          </Link>
+        </div>
       </nav>
-      {/* <Breadcrumbs /> */}
     </Container>
   )
 }
