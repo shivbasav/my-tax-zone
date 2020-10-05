@@ -13,14 +13,12 @@ const Header = () => (
         <Link className="navbar-item" to="/">
           <span>
             <p
-              className="has-text-info has-text-weight-semibold is-size-3"
-              size="big"
-              weight="bold"
-              letterSpacing="loose"
+              className="has-text-link-dark has-text-weight-semibold is-size-3"
+              style={{ letterSpacing: "2px", fontWeight: "bold" }}
             >
               MyTaxZone
             </p>
-            <p className="is-size-5 has-text-info">Consulting and Compliance</p>
+            <p className="is-size-5 has-text-link-dark">Consulting and Compliance</p>
           </span>
         </Link>
         <a
@@ -28,7 +26,7 @@ const Header = () => (
           className="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
-         // data-target="navbarBasicExample"
+          // data-target="navbarBasicExample"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
