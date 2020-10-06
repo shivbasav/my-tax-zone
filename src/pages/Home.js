@@ -1,71 +1,52 @@
 import React from "react"
+import relaxImage from "../assets/relax.jpg"
 
 const Home = () => {
   return (
     <div style={{ padding: "1rem 1rem" }}>
-      <div class="tile is-ancestor">
-        <div class="tile is-4 is-vertical is-parent">
-          <div class="tile is-child box">
-            <div className="level">
-              <div class="tile is-parent is-6">
-                <p class="title">Thirteen</p>
-                <p class="subtitle">Subtitle</p>
-                <div class="content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin ornare magna eros, eu pellentesque tortor vestibulum
-                    ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-                    facilisis.
-                  </p>
-                </div>
-              </div>
-
-              <div class="level-right">
-                <figure class="image is-128x128">
-                  <img src="https://bulma.io/images/placeholders/256x256.png" />
-                </figure>
-              </div>
+      <article class="media">
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>John Smith</strong> <small>@johnsmith</small>{" "}
+              <small>31m</small>
+              <br />
+              We at My tax zone are give Services such as Assurance, Consulting
+              in Income Tax, Goods and Services Tax, Corporate Advisory, Tax
+              Compliance Services, Company registration, Investment Tax planning
+              etc., from the last 10 years.
+            </p>
+          </div>
+          <nav class="level is-mobile">
+            <div class="level-left">
+              <a class="level-item" aria-label="reply">
+                <span class="icon is-small">
+                  <i class="fas fa-reply" aria-hidden="true"></i>
+                </span>
+              </a>
+              <a class="level-item" aria-label="retweet">
+                <span class="icon is-small">
+                  <i class="fas fa-retweet" aria-hidden="true"></i>
+                </span>
+              </a>
+              <a class="level-item" aria-label="like">
+                <span class="icon is-small">
+                  <i class="fas fa-heart" aria-hidden="true"></i>
+                </span>
+              </a>
             </div>
-          </div>
+          </nav>
         </div>
-      </div>
-
-      <div class="tile is-ancestor">
-        <div class="tile is-4 is-vertical is-parent ">
-          <article class="tile is-child box">
-            <p class="title">Middle box</p>
-            <p class="subtitle">With an image</p>
-
-            <img src="https://bulma.io/images/placeholders/640x480.png" />
-          </article>
-          <article class="tile is-child notification is-info">
-            <p class="title">Wide tile</p>
-            <p class="subtitle">Aligned with the right tile</p>
-            <div class="content">sfsgfgfd</div>
-          </article>
+        <div class="media-right">
+          <img
+            src={relaxImage}
+            alt="Image"
+            width={300}
+            height={300}
+            mode="fit"
+          />
         </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box">
-            <p class="title">Three</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="tile is-ancestor">
-        <div class="tile is-4 is-vertical is-parent">
-          <div class="tile is-child box">
-            <p class="title">One</p>
-          </div>
-          <div class="tile is-child box">
-            <p class="title">Two</p>
-          </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box">
-            <p class="title">Three</p>
-          </div>
-        </div>
-      </div>
+      </article>
     </div>
   )
 }

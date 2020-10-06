@@ -18,12 +18,13 @@ const Header = () => (
             >
               MyTaxZone
             </p>
-            <p className="is-size-5 has-text-link-dark">Consulting and Compliance</p>
+            <p className="is-size-5 has-text-link-dark">
+              Consulting and Compliance
+            </p>
           </span>
         </Link>
         <a
           role="button"
-          className="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
           // data-target="navbarBasicExample"

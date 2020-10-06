@@ -40,21 +40,21 @@ const SubHeader = () => {
           <div className="navbar-end">
             <div className="navbar-item has-dropdown is-hoverable">
               <div className="navbar-link">
-                <p style={{ fontSize: "11px" }}>START BUSINESS</p>
+                <p style={{ fontSize: "11px" }}>INCOME TAX</p>
               </div>
 
               <div className="navbar-dropdown">
                 <div className="navbar-item navbar-brand">
                   <Link to="/add-place">
                     <p style={{ color: "#505050", fontSize: "11px" }}>
-                      Add a Place
+                      Annual Income Tax Filing
                     </p>
                   </Link>
                 </div>
                 <div className="navbar-item">
                   <Link to="/search-place-for-claim">
                     <p style={{ color: "#505050", fontSize: "11px" }}>
-                      Claim a Place
+                      Other Income Tax Filings
                     </p>
                   </Link>
                 </div>
