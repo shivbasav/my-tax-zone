@@ -1,5 +1,6 @@
 import React from "react"
 import relaxImage from "../assets/relax.jpg"
+import AnnualIncomeTax from "./AnnualIncomeTax"
 
 const Home = () => {
   return (
@@ -12,7 +13,13 @@ const Home = () => {
                 Corporate Tax and Regulatory Compliance Simplified
               </strong>{" "}
               <br />
-              <p style={{ fontSize: "18px", paddingTop: "10px" }}>
+              <p
+                style={{
+                  fontSize: "18px",
+                  paddingTop: "10px",
+                  lineHeight: "1.8",
+                }}
+              >
                 We at My tax zone are give Services such as Assurance,
                 Consulting in Income Tax, Goods and Services Tax, Corporate
                 Advisory, Tax Compliance Services, Company registration,
@@ -57,6 +64,8 @@ const Home = () => {
           />
         </div>
       </article>
+
+      <hr />
     </div>
   )
 }

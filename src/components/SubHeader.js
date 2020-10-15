@@ -38,22 +38,34 @@ const SubHeader = () => {
       <Container>
         <nav className="navbar is-white" rol="navigation">
           <div className="navbar-end">
+            <div style={{ paddingTop: "1rem", paddingRight: "1rem" }}>
+              <Link to="/">
+                <p style={{ color: "#505050", fontSize: "15px" }}>HOME</p>
+              </Link>
+            </div>
             <div className="navbar-item has-dropdown is-hoverable">
               <div className="navbar-link">
-                <p style={{ fontSize: "11px" }}>INCOME TAX</p>
+                <p style={{ fontSize: "15px" }}>INCOME TAX</p>
               </div>
 
               <div className="navbar-dropdown">
-                <div className="navbar-item navbar-brand">
-                  <Link to="/add-place">
-                    <p style={{ color: "#505050", fontSize: "11px" }}>
+                <div className="navbar-item">
+                  <Link to="/IncomeTax/">
+                    <p style={{ color: "#505050", fontSize: "13px" }}>
+                      Income Tax
+                    </p>
+                  </Link>
+                </div>
+                <div className="navbar-item">
+                  <Link to="/AnnualIncomeTax/">
+                    <p style={{ color: "#505050", fontSize: "13px" }}>
                       Annual Income Tax Filing
                     </p>
                   </Link>
                 </div>
                 <div className="navbar-item">
-                  <Link to="/search-place-for-claim">
-                    <p style={{ color: "#505050", fontSize: "11px" }}>
+                  <Link to="/OtherIncomeTax">
+                    <p style={{ color: "#505050", fontSize: "13px" }}>
                       Other Income Tax Filings
                     </p>
                   </Link>
@@ -65,24 +77,24 @@ const SubHeader = () => {
           <div className="navbar-item has-dropdown is-hoverable">
             <div className="navbar-end">
               <div className="navbar-link">
-                <p style={{ fontSize: "11px" }}>MANAGE BUSINESS</p>
+                <p style={{ fontSize: "15px" }}>MANAGE BUSINESS</p>
               </div>
 
               <div className="navbar-dropdown navbar-dropdown-background-color">
                 <div className="navbar-item navbar-brand">
-                  <Link to="/add-place">
-                    <p style={{ color: "#505050", fontSize: "11px" }}>
-                      Add a Place
+                  <Link to="">
+                    <p style={{ color: "#505050", fontSize: "13px" }}>
+                      Coming Soon
                     </p>
                   </Link>
                 </div>
-                <div className="navbar-item">
+                {/* <div className="navbar-item">
                   <Link to="/search-place-for-claim">
                     <p style={{ color: "#505050", fontSize: "11px" }}>
                       Claim a Place
                     </p>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -90,31 +102,31 @@ const SubHeader = () => {
           <div className="navbar-item has-dropdown is-hoverable">
             <div className="navbar-end">
               <div className="navbar-link">
-                <p style={{ fontSize: "11px" }}>AGREEMENTS & DOCUMENTS </p>
+                <p style={{ fontSize: "15px" }}>AGREEMENTS & DOCUMENTS </p>
               </div>
 
               <div className="navbar-dropdown navbar-dropdown-background-color">
                 <div className="navbar-item navbar-brand">
-                  <Link to="/add-place">
-                    <p style={{ color: "#505050", fontSize: "11px" }}>
-                      Add a Place
+                  <Link to="">
+                    <p style={{ color: "#505050", fontSize: "13px" }}>
+                      Coming Soon
                     </p>
                   </Link>
                 </div>
-                <div className="navbar-item">
+                {/* <div className="navbar-item">
                   <Link to="/search-place-for-claim">
                     <p style={{ color: "#505050", fontSize: "11px" }}>
                       Claim a Place
                     </p>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
 
-          <div style={{ paddingTop: "1.1rem", paddingRight: "1rem" }}>
-            <Link to="/add-place">
-              <p style={{ color: "#505050", fontSize: "11px" }}>ARTICLES</p>
+          <div style={{ paddingTop: "1rem", paddingRight: "1rem" }}>
+            <Link to="">
+              <p style={{ color: "#505050", fontSize: "15px" }}>ARTICLES</p>
             </Link>
           </div>
         </nav>
