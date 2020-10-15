@@ -8,13 +8,23 @@ const Home = () => {
         <div class="media-content">
           <div class="content">
             <p>
-              <strong>John Smith</strong> <small>@johnsmith</small>{" "}
-              <small>31m</small>
+              <strong style={{ fontSize: "25px" }}>
+                Corporate Tax and Regulatory Compliance Simplified
+              </strong>{" "}
               <br />
-              We at My tax zone are give Services such as Assurance, Consulting
-              in Income Tax, Goods and Services Tax, Corporate Advisory, Tax
-              Compliance Services, Company registration, Investment Tax planning
-              etc., from the last 10 years.
+              <p style={{ fontSize: "18px", paddingTop: "10px" }}>
+                We at My tax zone are give Services such as Assurance,
+                Consulting in Income Tax, Goods and Services Tax, Corporate
+                Advisory, Tax Compliance Services, Company registration,
+                Investment Tax planning etc., from the last 10 years. We can
+                take care of your corporate tax compliance work allowing you to
+                focus on your core business. We can prepare and submit tax
+                computations quickly and accurately. We are also able to offer
+                you tax advisory services driven by your core business
+                objectives. We can help you at a strategic business planning
+                level to understand the effect your business strategies may have
+                on your tax profile.
+              </p>
             </p>
           </div>
           <nav class="level is-mobile">
@@ -41,8 +51,8 @@ const Home = () => {
           <img
             src={relaxImage}
             alt="Image"
-            width={300}
-            height={300}
+            width={500}
+            height={150}
             mode="fit"
           />
         </div>

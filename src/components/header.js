@@ -13,12 +13,16 @@ const Header = () => (
         <Link className="navbar-item" to="/">
           <span>
             <p
-              className="has-text-link-dark has-text-weight-semibold is-size-3"
-              style={{ letterSpacing: "2px", fontWeight: "bold" }}
+              className="has-text-link-dark has-text-weight-semibold"
+              style={{
+                letterSpacing: "2px",
+                fontWeight: "bold",
+                fontSize: "25px",
+              }}
             >
               MyTaxZone
             </p>
-            <p className="is-size-5 has-text-link-dark">
+            <p className=" has-text-link-dark" style={{ fontSize: "15px" }}>
               Consulting and Compliance
             </p>
           </span>
