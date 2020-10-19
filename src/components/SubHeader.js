@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
+
 const NavbarLink = styled.a``
 const Container = styled.div`
   padding-left: 1rem;
