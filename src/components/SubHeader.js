@@ -2,8 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-
-const NavbarLink = styled.a``
+//const NavbarLink = styled.a``
 const Container = styled.div`
   padding-left: 1rem;
   width: 100%;
@@ -15,23 +14,23 @@ const Container = styled.div`
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
 `
 
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 0rem auto;
-  max-width: 1330px;
-  padding: 0 20px;
-`
+// const Wrapper = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   margin: 0rem auto;
+//   max-width: 1330px;
+//   padding: 0 20px;
+// `
 
-const Item = styled.div`
-  margin: 0rem 0.8rem;
-  padding: 0.4rem 0.2rem;
-  position: relative;
-  top: 2px;
-  border-bottom: 2px solid
-    ${({ theme: { primaryColor }, isActive }) =>
-      isActive ? primaryColor : "transparent"};
-`
+// const Item = styled.div`
+//   margin: 0rem 0.8rem;
+//   padding: 0.4rem 0.2rem;
+//   position: relative;
+//   top: 2px;
+//   border-bottom: 2px solid
+//     ${({ theme: { primaryColor }, isActive }) =>
+//       isActive ? primaryColor : "transparent"};
+// `
 
 const SubHeader = () => {
   return (

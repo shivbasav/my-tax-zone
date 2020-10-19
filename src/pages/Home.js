@@ -1,6 +1,6 @@
 import React from "react"
 import relaxImage from "../assets/relax.jpg"
-import AnnualIncomeTax from "./AnnualIncomeTax"
+
 
 const Home = () => {
   return (

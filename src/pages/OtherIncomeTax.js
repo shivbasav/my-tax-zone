@@ -7,7 +7,7 @@ const OtherIncomeTax = () => {
     <div>
       <Header />
       <SubHeader />
-      s.dmnfs.dnfsknf
+      Other Income Tax
     </div>
   )
 }
