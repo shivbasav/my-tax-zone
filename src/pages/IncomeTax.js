@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import Header from "../components/Header"
+import Header from "../components/header"
 import SubHeader from "../components/SubHeader"
 
 const Container = styled.div``
@@ -14,7 +14,7 @@ const IncomeTax = () => {
       <Container>
         <li>
           I will rise again. Just like a storm, Just like a valcano erruption
-          and Just like blistring colors.
+          and Just like colors.
         </li>
         <li>
           {" "}
