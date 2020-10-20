@@ -1,7 +1,6 @@
 import React from "react"
 import relaxImage from "../assets/relax.jpg"
 
-
 const Home = () => {
   return (
     <div style={{ padding: "1rem 1rem" }}>
@@ -20,17 +19,16 @@ const Home = () => {
                   lineHeight: "1.8",
                 }}
               >
-                We at My tax zone are give Services such as Assurance,
-                Consulting in Income Tax, Goods and Services Tax, Corporate
-                Advisory, Tax Compliance Services, Company registration,
-                Investment Tax planning etc., from the last 10 years. We can
-                take care of your corporate tax compliance work allowing you to
-                focus on your core business. We can prepare and submit tax
-                computations quickly and accurately. We are also able to offer
-                you tax advisory services driven by your core business
-                objectives. We can help you at a strategic business planning
-                level to understand the effect your business strategies may have
-                on your tax profile.
+                We at My tax zone give Services such as Assurance, Consulting in
+                Income Tax, Goods and Services Tax, Corporate Advisory, Tax
+                Compliance Services, Company registration, Investment Tax
+                planning etc., from the last 10 years. We can take care of your
+                corporate tax compliance work allowing you to focus on your core
+                business. We can prepare and submit tax computations quickly and
+                accurately. We are also able to offer you tax advisory services
+                driven by your core business objectives. We can help you at a
+                strategic business planning level to understand the effect your
+                business strategies may have on your tax profile.
               </p>
             </p>
           </div>
