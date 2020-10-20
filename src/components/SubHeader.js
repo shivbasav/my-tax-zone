@@ -59,14 +59,7 @@ const SubHeader = () => {
                 <div className="navbar-item">
                   <Link to="/AnnualIncomeTax/">
                     <p style={{ color: "#505050", fontSize: "13px" }}>
-                      Annual Income Tax Filing
-                    </p>
-                  </Link>
-                </div>
-                <div className="navbar-item">
-                  <Link to="/OtherIncomeTax">
-                    <p style={{ color: "#505050", fontSize: "13px" }}>
-                      Other Income Tax Filings
+                      Tax Filing
                     </p>
                   </Link>
                 </div>
@@ -124,11 +117,11 @@ const SubHeader = () => {
             </div>
           </div>
 
-          <div style={{ paddingTop: "1rem", paddingRight: "1rem" }}>
+          {/* <div style={{ paddingTop: "1rem", paddingRight: "1rem" }}>
             <Link to="">
               <p style={{ color: "#505050", fontSize: "15px" }}>ARTICLES</p>
             </Link>
-          </div>
+          </div> */}
         </nav>
       </Container>
       <br />
