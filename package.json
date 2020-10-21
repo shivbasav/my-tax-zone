@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Shivbasav Nandargi <shivbasavnandargi@gmail.com>",
   "dependencies": {
+    "@auth0/auth0-react": "^1.1.0",
     "bulma": "^0.9.0",
     "gasp": "0.0.2",
     "gatsby": "^2.24.61",
